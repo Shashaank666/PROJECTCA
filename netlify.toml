@@ -2,13 +2,25 @@
   publish = "dist"
   command = "npm run build"
 
+[build.environment]
+  NODE_VERSION = "18"
+
+[functions]
+  node_bundler = "esbuild"
+  directory = "netlify/functions"
+
+[functions.send-email]
+  included_files = ["netlify/functions/send-email.js"]
+
+[[redirects]]
+  from = "/api/send-email"
+  to = "/.netlify/functions/send-email"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-
-[build.environment]
-  NODE_VERSION = "18"
 
 [[headers]]
   for = "/*"
@@ -22,8 +34,3 @@
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
-
-# Email notification function
-[[functions]]
-  function = "send-email"
-  path = "/.netlify/functions/send-email"
