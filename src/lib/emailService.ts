@@ -13,7 +13,7 @@ export const sendEmailNotification = async (data: EmailNotificationData): Promis
   try {
     // Format the email content
     const emailContent = {
-      to: 'singh.company2012@gmail.com',
+      to: 'info@camphormind.com',
       subject: `🌿 New ${data.submissionType} from CamphorMind Website - ${data.name}`,
       html: `
         <!DOCTYPE html>
@@ -113,7 +113,7 @@ export const sendEmailNotification = async (data: EmailNotificationData): Promis
             <div class="footer">
               <p><strong>🌿 CamphorMind CA Services</strong></p>
               <p>📍 Royal Residency, Mandi, Delhi - 110047</p>
-              <p>📞 Phone: +91 9717366670 | 📧 Email: singh.company2012@gmail.com</p>
+              <p>📞 Phone: +91 9717366670 | 📧 Email: info@camphormind.com</p>
               <p style="margin-top: 15px; font-size: 12px; color: #9ca3af;">
                 This is an automated notification from your CamphorMind website contact form.
               </p>

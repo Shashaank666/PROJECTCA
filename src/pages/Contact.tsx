@@ -24,8 +24,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Address",
-      details: ["singh.company2012@gmail.com"],
-      action: "mailto:singh.company2012@gmail.com",
+      details: ["info@camphormind.com"],
+      action: "mailto:info@camphormind.com",
       description: "Send us your queries anytime"
     },
     {
@@ -97,7 +97,7 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center justify-center space-x-3">
                   <Mail className="w-5 h-5 text-emerald-300" />
-                  <span className="text-lg">Email: singh.company2012@gmail.com</span>
+                  <span className="text-lg">Email: info@camphormind.com</span>
                 </div>
               </div>
             </div>

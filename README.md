@@ -109,7 +109,7 @@ A modern, responsive website for chartered accountant services built with React,
 
 ## 📧 Email Notifications
 
-The system automatically sends email notifications to `singh.company2012@gmail.com` when:
+The system automatically sends email notifications to `info@camphormind.com` when:
 - Contact forms are submitted
 - Service inquiries are received
 - Consultation requests are made
@@ -167,7 +167,7 @@ The system automatically sends email notifications to `singh.company2012@gmail.c
 ## 📞 Contact Information
 
 - **Phone & WhatsApp**: +91 9717366670
-- **Email**: singh.company2012@gmail.com
+- **Email**: info@camphormind.com
 - **Address**: Royal Residency, Mandi, Delhi - 110047
 - **CAs**: CA Gaurav Singh (15+ Years) & CA Dimple Singh (13+ Years)
 
@@ -196,5 +196,5 @@ This project is proprietary software for CamphorMind CA Services.
 ## 🤝 Support
 
 For technical support or business inquiries, contact:
-- Email: singh.company2012@gmail.com
+- Email: info@camphormind.com
 - Phone: +91 9717366670

@@ -260,7 +260,7 @@ const Home = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-emerald-400" />
-                <span className="text-sm">singh.company2012@gmail.com</span>
+                <span className="text-sm">info@camphormind.com</span>
               </div>
             </motion.div>
           </div>
@@ -588,7 +588,7 @@ const Home = () => {
                 </div>
                 <div className="flex items-center justify-center space-x-2">
                   <Mail className="w-5 h-5" />
-                  <span>singh.company2012@gmail.com</span>
+                  <span>info@camphormind.com</span>
                 </div>
                 <div className="flex items-center justify-center space-x-2 md:col-span-2">
                   <MapPin className="w-5 h-5" />
